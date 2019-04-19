@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/checkPopular"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="PopularMovies"/>
+    <item
+        android:id="@+id/checkTopRated"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="TopRatedMovies"/>
+
+    <item
+        android:id="@+id/checkFav"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="FavoriteMovies"/>
+</menu>
